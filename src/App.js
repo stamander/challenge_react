@@ -18,8 +18,8 @@ class App extends React.Component {
         <img src = {imgUrl}/>
 
         <h1>こんにちは</h1>
-        <button onClick = {()=>}>ひつじ仙人</button>
-        <button onClick = {()=>}>にんじゃわんこ</button>
+        <button onClick = {()=>{console.log("ひつじ仙人")}}>ひつじ仙人</button>
+        <button onClick = {()=>{console.log("にんじゃわんこ")}}>にんじゃわんこ</button>
         
       </div>
     );
