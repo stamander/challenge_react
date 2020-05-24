@@ -4,10 +4,10 @@ import React from 'react';
 class App extends React.Component {
   render() {
     // 定数nameを定義してください
-    const name = "にんじゃわんこ";
+    const name = "Hello stamander";
     
     // 定数imgUrlを定義してください
-    const imgUrl = 'logo192.png';
+    const imgUrl = 'stamander.jpg';
     
     return (
       <div>
