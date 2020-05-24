@@ -20,12 +20,12 @@ class App extends React.Component {
     return (
       <div>
         {/* 定数nameを用いてにんじゃわんこと表示されるようにしてください */}
-    <h1>こんにちは{this.state.name}さん</h1>
+    
         
         {/* 定数imgUrlを用いて画像が表示されるようにしてください */}
         <img src = {imgUrl}/>
 
-        <h1>こんにちは</h1>
+        <h1>こんにちは{this.state.name}さん</h1>
         <button onClick = {()=>{this.setState({name:'ひつじ仙人'})}}>
           ひつじ仙人
         </button>
