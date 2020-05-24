@@ -9,7 +9,7 @@ class App extends React.Component {
   }
   
   hundleClick(name){
-    this.setName({name: name});
+    this.setState({name: name});
 
   }
   render() {
