@@ -5,7 +5,7 @@ class App extends React.Component {
   render() {
     // 定数nameを定義してください
     const user = {name: "Stamander",age:2};
-    console.log(user);
+    console.log(user.age);
     
     // 定数imgUrlを定義してください
     const imgUrl = 'stamander.jpg';
@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div>
         {/* 定数nameを用いてにんじゃわんこと表示されるようにしてください */}
-        <h1>{name}</h1>
+      
         
         {/* 定数imgUrlを用いて画像が表示されるようにしてください */}
         <img src = {imgUrl}/>
