@@ -7,7 +7,7 @@ class App extends React.Component {
     const name = "にんじゃわんこ";
     
     // 定数imgUrlを定義してください
-    const imgUrl = 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/ninjawanko.png';
+    const imgUrl = 'logo192.png';
     
     return (
       <div>
