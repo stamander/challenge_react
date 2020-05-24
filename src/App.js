@@ -9,6 +9,11 @@ class App extends React.Component {
     
     // 定数imgUrlを定義してください
     const imgUrl = 'stamander.jpg';
+
+    constructor(props){
+      super(props);
+      this.state ={name:'にんじゃわんこ'};
+    }
     
     return (
       <div>
