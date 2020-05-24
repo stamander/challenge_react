@@ -16,6 +16,10 @@ class App extends React.Component {
         
         {/* 定数imgUrlを用いて画像が表示されるようにしてください */}
         <img src = {imgUrl}/>
+
+        <h1>こんにちは</h1>
+        <buttun>ひつじ仙人</buttun>
+        <buttun>にんじゃわんこ</buttun>
         
       </div>
     );
