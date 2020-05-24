@@ -4,7 +4,7 @@ import React from 'react';
 // Appクラスを定義してください
 class App extends React.Component{
   render(){
-    const text = 'Hello world'
+    const text = 'Hello world';
    return (
      
       <div> {text} 
