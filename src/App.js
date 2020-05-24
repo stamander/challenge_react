@@ -6,8 +6,10 @@ class App extends React.Component{
   render(){
     const text = 'Hello world'
    return (
-      <h1>Hello React</h1>
-      <div>{text}</div>
+     
+      <div> {text} 
+       <h1>Hello React</h1>
+      </div>
     );
   }
 }
