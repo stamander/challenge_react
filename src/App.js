@@ -8,6 +8,10 @@ class App extends React.Component {
     this.state ={name:'にんじゃわんこ'};
   }
   
+  hundleClick(name){
+    this.setName({name: name});
+
+  }
   render() {
     // 定数nameを定義してください
     const user = {name: "Stamander",age:2};
@@ -26,10 +30,10 @@ class App extends React.Component {
         <img src = {imgUrl}/>
 
         <h1>こんにちは{this.state.name}さん</h1>
-        <button onClick = {()=>{this.setState({name:'ひつじ仙人'})}}>
+        <button onClick = {()=>{this.hundleClick('ひつじ仙人')}}>
           ひつじ仙人
         </button>
-        <button onClick = {()=>{this.setState({name:"にんじゃわんこ"})}}>
+        <button onClick = {()=>{this.hundleClick('にんじゃわんこ')}}>
           にんじゃわんこ
           </button>
         
