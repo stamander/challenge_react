@@ -4,7 +4,8 @@ import React from 'react';
 class App extends React.Component {
   render() {
     // 定数nameを定義してください
-    const name = "Hello stamander";
+    const user = {name: "Stamander",age:2};
+    console.log(user);
     
     // 定数imgUrlを定義してください
     const imgUrl = 'stamander.jpg';
