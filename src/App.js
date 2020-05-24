@@ -18,7 +18,7 @@ class App extends React.Component {
         <img src = {imgUrl}/>
 
         <h1>こんにちは</h1>
-        <button>ひつじ仙人</button>
+        <button onClick>ひつじ仙人</button>
         <button>にんじゃわんこ</button>
         
       </div>
