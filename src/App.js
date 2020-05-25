@@ -45,9 +45,11 @@ class App extends React.Component {
         </button>
 
       
-
+      <div className = 'Language'>
         <Language />
         <Language />
+        <Language />
+        </div>
 
        
         
