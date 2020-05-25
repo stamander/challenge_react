@@ -1,7 +1,7 @@
 // Reactをインポートしてください
 import React from 'react';
 
-class Lunguage extends React.Component {
+class App extends React.Component {
 
   constructor(props){
     super(props);
