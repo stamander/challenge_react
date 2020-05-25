@@ -28,7 +28,7 @@ class App extends React.Component {
 
     return (
       <div>
-        {/* 定数nameを用いてにんじゃわんこと表示されるようにしてください */}
+      
       
     
         
@@ -56,6 +56,10 @@ class App extends React.Component {
         <Language 
         name = 'mickey'/>
         </div>
+
+        {fruitList.map((fruitItem)=>{
+          return <p>{fruitItem}</p>
+        })}
 
        
         
