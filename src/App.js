@@ -31,7 +31,9 @@ class App extends React.Component {
         <img src = {imgUrl}/>
 
         <h1>こんにちは{this.state.name}さん</h1>
-    <h2>{this.state.count}</h2>
+        <h2>{this.state.count}</h2>
+        <button>+</button>
+
         <button onClick = {()=>{this.hundleClick('ひつじ仙人')}}>
           ひつじ仙人
         </button>
