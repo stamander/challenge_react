@@ -5,7 +5,7 @@ class App extends React.Component {
 
   constructor(props){
     super(props);
-    this.state ={name:'にんじゃわんこ'};
+    this.state ={count:0};
   }
   
   hundleClick(name){
@@ -24,12 +24,16 @@ class App extends React.Component {
     return (
       <div>
         {/* 定数nameを用いてにんじゃわんこと表示されるようにしてください */}
+      
     
         
         {/* 定数imgUrlを用いて画像が表示されるようにしてください */}
         <img src = {imgUrl}/>
 
-        <h1>こんにちは{this.state.name}さん</h1>
+    <h1>
+      {this.state.count}
+
+    </h1>
         <button onClick = {()=>{this.hundleClick('ひつじ仙人')}}>
           ひつじ仙人
         </button>
