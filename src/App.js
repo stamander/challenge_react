@@ -30,10 +30,8 @@ class App extends React.Component {
         {/* 定数imgUrlを用いて画像が表示されるようにしてください */}
         <img src = {imgUrl}/>
 
-    <h1>
-      {this.state.count}
-
-    </h1>
+        <h1>こんにちは{this.state.name}さん</h1>
+    <h2>{this.state.count}</h2>
         <button onClick = {()=>{this.hundleClick('ひつじ仙人')}}>
           ひつじ仙人
         </button>
