@@ -46,7 +46,9 @@ class App extends React.Component {
 
       
       <div className = 'Language'>
-        <Language />
+        <Language
+        name = 'HTML & CSS'
+        image = />
         <Language />
         <Language />
         </div>
