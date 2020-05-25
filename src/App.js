@@ -1,7 +1,7 @@
 // Reactをインポートしてください
 import React from 'react';
 
-class App extends React.Component {
+class Lunguage extends React.Component {
 
   constructor(props){
     super(props);
@@ -31,7 +31,7 @@ class App extends React.Component {
         {/* 定数imgUrlを用いて画像が表示されるようにしてください */}
         <img className = 'Stamander' src = {imgUrl}/>
 
-        <h1>こんにちは{this.state.name}さん</h1>
+        <h1 className = 'text'>こんにちは{this.state.name}さん</h1>
         <h2>{this.state.count}</h2>
         <button onClick = {()=>{this.handleClick()}}>+</button>
 
