@@ -42,7 +42,9 @@ class App extends React.Component {
         </button>
         <button onClick = {()=>{this.handleClick('にんじゃわんこ')}}>
           にんじゃわんこ
-          </button>
+        </button>
+
+        Language
         
       </div>
     );
