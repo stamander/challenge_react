@@ -49,8 +49,10 @@ class App extends React.Component {
         <Language
         name = 'HTML & CSS'
          />
-        <Language />
-        <Language />
+        <Language 
+        name = 'stamander'/>
+        <Language 
+        name = />
         </div>
 
        
