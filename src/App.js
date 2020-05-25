@@ -1,6 +1,8 @@
 // Reactをインポートしてください
 import React from 'react';
 
+import Language from './Language';
+
 class App extends React.Component {
 
   constructor(props){
