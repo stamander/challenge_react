@@ -24,7 +24,9 @@ class App extends React.Component {
     const imgUrl = 'stamander.jpg';
 
     const fruitList = [ 'リンゴ','ミカン','バナナ'];
-    const languageList = ['HTML & CSS','stamander','mickey']
+    const languageList = [
+      {name:'HTML & CSS',image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg',name:'stamander',name:'mickey'}
+    ]
 
 
     return (
@@ -53,6 +55,7 @@ class App extends React.Component {
           return(
             <Language
             name = {languageItem.name}
+  
              />
 
 
