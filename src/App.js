@@ -44,7 +44,8 @@ class App extends React.Component {
           にんじゃわんこ
         </button>
 
-        Language
+        <Language/>
+        <Language/>
         
       </div>
     );
