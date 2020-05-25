@@ -23,6 +23,8 @@ class App extends React.Component {
     // 定数imgUrlを定義してください
     const imgUrl = 'stamander.jpg';
 
+    const fruitList = [ 'リンゴ','ミカン','バナナ'];
+
 
     return (
       <div>
