@@ -29,7 +29,7 @@ class App extends React.Component {
     
         
         {/* 定数imgUrlを用いて画像が表示されるようにしてください */}
-        <img src = {imgUrl}/>
+        <div class = 'Stamander'><img src = {imgUrl}/></div>
 
         <h1>こんにちは{this.state.name}さん</h1>
         <h2>{this.state.count}</h2>
