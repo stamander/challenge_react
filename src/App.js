@@ -10,6 +10,7 @@ class App extends React.Component {
   
   hundleClick(name){
     this.setState({name: name});
+    this.setState({count:this.state.count +1});
 
   }
   render() {
@@ -32,7 +33,7 @@ class App extends React.Component {
 
         <h1>こんにちは{this.state.name}さん</h1>
         <h2>{this.state.count}</h2>
-        <button>+</button>
+        <button onClick = {()=>{this.hundleClick()}}>+</button>
 
         <button onClick = {()=>{this.hundleClick('ひつじ仙人')}}>
           ひつじ仙人
