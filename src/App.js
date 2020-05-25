@@ -24,6 +24,7 @@ class App extends React.Component {
     const imgUrl = 'stamander.jpg';
 
     const fruitList = [ 'リンゴ','ミカン','バナナ'];
+    const languageList = ['HTML & CSS','stamander','mickey']
 
 
     return (
@@ -48,13 +49,16 @@ class App extends React.Component {
 
       
       <div className = 'Language'>
-        <Language
-        name = 'HTML & CSS'
-         />
-        <Language 
-        name = 'stamander'/>
-        <Language 
-        name = 'mickey'/>
+        {languageList.map((languageItem)=>{
+          return(
+            <Language
+            name = {languageItem.name}
+             />
+
+
+          )
+        })}
+
         </div>
 
         {fruitList.map((fruitItem)=>{
