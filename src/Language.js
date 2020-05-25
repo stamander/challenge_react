@@ -6,7 +6,9 @@ class Language extends React.Component{
     console.log(this.props);
     return(
       <div className='language-item'>
-        <div className='language-name'>HTML & CSS</div>
+        <div className='language-name'>HTML & CSS
+        {this.props.name}
+        </div>
         <img className='language-image' src='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg' />
       </div>
 
