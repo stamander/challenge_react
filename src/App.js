@@ -35,10 +35,10 @@ class App extends React.Component {
         <h2>{this.state.count}</h2>
         <button onClick = {()=>{this.handleClick()}}>+</button>
 
-        <button onClick = {()=>{this.hundleClick('ひつじ仙人')}}>
+        <button onClick = {()=>{this.handleClick('ひつじ仙人')}}>
           ひつじ仙人
         </button>
-        <button onClick = {()=>{this.hundleClick('にんじゃわんこ')}}>
+        <button onClick = {()=>{this.handleClick('にんじゃわんこ')}}>
           にんじゃわんこ
           </button>
         
