@@ -52,7 +52,7 @@ class App extends React.Component {
         <Language 
         name = 'stamander'/>
         <Language 
-        name = />
+        name = 'mickey'/>
         </div>
 
        
