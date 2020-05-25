@@ -28,3 +28,9 @@ button {
   -moz-appearance: none;
   appearance: none;
 }
+
+
+img{
+  height: 500px;
+  width: 500px;
+}
